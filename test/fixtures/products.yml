@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyString
+  description: MyText
+  image_url: /MyString.jpg
+  price: 9.99
+
+two:
+  title: MyString2
+  description: MyText
+  image_url: /MyString.jpg
+  price: 9.99
+
+ruby:
+  title:          Programing in Ruby 1.9
+  description:
+        ruby is the fastest ever programming language that youer
+        will ever see dude, this stuff is smokingly faaast.
+  price:          99.50
+  image_url:      ruby.png 
