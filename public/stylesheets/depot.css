@@ -111,10 +111,7 @@
 
 #store  .entry  form, #store .entry form div{
   display: inline;
-  overflow: auto;
-  margin-top: 1em;
-  border-bottom: 1px dotted #77d;
-}
+ }
 
 #store  .title {
   font-size: 120%;
