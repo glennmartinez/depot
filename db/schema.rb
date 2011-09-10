@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # encoding: UTF-8
+=======
+>>>>>>> 30e300228956a8aab7edbdaa07f1710ddb3e3588
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -11,13 +14,33 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20110909010804) do
+=======
+ActiveRecord::Schema.define(:version => 20110803141342) do
+
+  create_table "carts", :force => true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "line_items", :force => true do |t|
+    t.integer  "product_id"
+    t.integer  "cart_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+>>>>>>> 30e300228956a8aab7edbdaa07f1710ddb3e3588
 
   create_table "products", :force => true do |t|
     t.string   "title"
     t.text     "description"
     t.string   "image_url"
+<<<<<<< HEAD
     t.decimal  "price"
+=======
+    t.decimal  "price",       :precision => 8, :scale => 2
+>>>>>>> 30e300228956a8aab7edbdaa07f1710ddb3e3588
     t.datetime "created_at"
     t.datetime "updated_at"
   end

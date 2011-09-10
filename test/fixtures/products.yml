@@ -3,6 +3,7 @@
 one:
   title: MyString
   description: MyText
+<<<<<<< HEAD
   image_url: MyString
   price: 9.99
 
@@ -11,3 +12,21 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+=======
+  image_url: /MyString.jpg
+  price: 9.99
+
+two:
+  title: MyString2
+  description: MyText
+  image_url: /MyString.jpg
+  price: 9.99
+
+ruby:
+  title:          Programing Ruby 1.9
+  description:
+        ruby is the fastest ever programming language that youer
+        will ever see dude, this stuff is smokingly faaast.
+  price:          99.50
+  image_url:      ruby.png 
+>>>>>>> 30e300228956a8aab7edbdaa07f1710ddb3e3588
