@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #---
 # Excerpted from "Agile Web Development with Rails",
 # published by The Pragmatic Bookshelf.
@@ -53,3 +54,26 @@ Product.create(:title => 'Rails Test Prescriptions',
       </p>},
   :image_url => '/images/rtp.jpg',
   :price => 43.75)
+=======
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
+#
+# Examples:
+#
+#   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
+#   Mayor.create(:name => 'Daley', :city => cities.first)
+
+Product.delete_all
+
+#...
+Product.create(:title => 'Programming Ruby 1.9',
+        :description =>
+                 %{<p>
+                       Ruby is the fastest growing amd most exiting dinamic language out there.
+                       if you like it then its good.
+                  </p>},
+        :image_url => '/images/ruby.jpg',
+        :price => 49.50)
+
+#...
+>>>>>>> 30e300228956a8aab7edbdaa07f1710ddb3e3588

@@ -1,4 +1,13 @@
 Depot::Application.routes.draw do
+<<<<<<< HEAD
+=======
+  resources :line_items
+
+  resources :carts
+
+  get "store/index"
+
+>>>>>>> 30e300228956a8aab7edbdaa07f1710ddb3e3588
   resources :products
 
   # The priority is based upon order of creation:
@@ -50,7 +59,11 @@ Depot::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
+<<<<<<< HEAD
   # root :to => "welcome#index"
+=======
+   root :to => 'store#index', :as => 'store'
+>>>>>>> 30e300228956a8aab7edbdaa07f1710ddb3e3588
 
   # See how all your routes lay out with "rake routes"
 
@@ -58,3 +71,8 @@ Depot::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
 end
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 30e300228956a8aab7edbdaa07f1710ddb3e3588

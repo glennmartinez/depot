@@ -1,6 +1,10 @@
 source 'http://rubygems.org'
 
+<<<<<<< HEAD
 gem 'rails', '3.0.10'
+=======
+gem 'rails', '3.0.9'
+>>>>>>> 30e300228956a8aab7edbdaa07f1710ddb3e3588
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
